@@ -13,4 +13,5 @@ TODO/BUGS:
 - Translations
 
 
-Oroginal author and all credits: Dmitriy Lukyanov
+Original author and all credits: Dmitriy Lukyanov
+Original source: https://bitbucket.org/WeeZi/harbour-sailtasklist (not working anymore)
