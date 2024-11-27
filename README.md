@@ -2,14 +2,15 @@
 
 List app for Sailfish OS
 
-Simply, quick and easy. Create your lits and enjoy
+Simply, quick and easy. Create your lists and enjoy.
 The application allows you to create and store lists in a convenient way...
 
 Actualy there is no DropBox support.
 
-TODO: 
+TODO/BUGS: 
+- fix Cover Page
 - DropBox support
 - Translations
-- fix Cover Page
+
 
 Oroginal author and all credits: Dmitriy Lukyanov
