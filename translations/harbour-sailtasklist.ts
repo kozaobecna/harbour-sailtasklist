@@ -54,7 +54,6 @@ Settings menu</source>
     <name>Filters</name>
     <message>
         <location filename="../qml/pages/Filters.qml" line="17"/>
-        <location filename="../qml/pages/Filters.qml" line="317"/>
         <source>Connected as</source>
         <translation type="unfinished"></translation>
     </message>
@@ -98,30 +97,9 @@ Settings menu</source>
         <source>Select the displayed lists</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <location filename="../qml/pages/Filters.qml" line="312"/>
-        <source>Connecting...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Filters.qml" line="314"/>
-        <source>Synchronization...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Filters.qml" line="319"/>
-        <source>Disconnected</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>ListsPage</name>
-    <message>
-        <location filename="../qml/pages/ListsPage.qml" line="63"/>
-        <location filename="../qml/pages/ListsPage.qml" line="544"/>
-        <source>Disconnected</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <location filename="../qml/pages/ListsPage.qml" line="122"/>
         <location filename="../qml/pages/ListsPage.qml" line="202"/>
@@ -133,7 +111,7 @@ Settings menu</source>
         <location filename="../qml/pages/ListsPage.qml" line="181"/>
         <location filename="../qml/pages/ListsPage.qml" line="203"/>
         <source>Add new list</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/ListsPage.qml" line="154"/>
@@ -192,31 +170,28 @@ Settings menu</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ListsPage.qml" line="537"/>
-        <location filename="../qml/pages/ListsPage.qml" line="579"/>
+        <location filename="../qml/pages/ListsPage.qml" line="581"/>
         <source>Connecting...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ListsPage.qml" line="539"/>
-        <location filename="../qml/pages/ListsPage.qml" line="593"/>
-        <location filename="../qml/pages/ListsPage.qml" line="597"/>
-        <location filename="../qml/pages/ListsPage.qml" line="607"/>
-        <location filename="../qml/pages/ListsPage.qml" line="618"/>
-        <location filename="../qml/pages/ListsPage.qml" line="681"/>
+        <location filename="../qml/pages/ListsPage.qml" line="590"/>
+        <source>Checking for updates...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/ListsPage.qml" line="595"/>
+        <location filename="../qml/pages/ListsPage.qml" line="599"/>
+        <location filename="../qml/pages/ListsPage.qml" line="609"/>
+        <location filename="../qml/pages/ListsPage.qml" line="620"/>
+        <location filename="../qml/pages/ListsPage.qml" line="683"/>
         <source>Synchronization...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ListsPage.qml" line="542"/>
-        <location filename="../qml/pages/ListsPage.qml" line="628"/>
-        <location filename="../qml/pages/ListsPage.qml" line="694"/>
+        <location filename="../qml/pages/ListsPage.qml" line="630"/>
+        <location filename="../qml/pages/ListsPage.qml" line="696"/>
         <source>Connected as</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/ListsPage.qml" line="588"/>
-        <source>Checking for updates...</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -233,24 +208,6 @@ Settings menu</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="36"/>
-        <location filename="../qml/pages/Settings.qml" line="613"/>
-        <source>Connected as</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Settings.qml" line="38"/>
-        <location filename="../qml/pages/Settings.qml" line="337"/>
-        <source>Log out</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Settings.qml" line="51"/>
-        <location filename="../qml/pages/Settings.qml" line="615"/>
-        <source>Disconnected</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../qml/pages/Settings.qml" line="67"/>
         <source>Downloading...</source>
         <translation type="unfinished"></translation>
@@ -262,7 +219,6 @@ Settings menu</source>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="83"/>
-        <location filename="../qml/pages/Settings.qml" line="608"/>
         <source>Connecting...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -361,7 +317,11 @@ Settings menu</source>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="337"/>
-        <location filename="../qml/pages/Settings.qml" line="344"/>
+        <source>Log out</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Settings.qml" line="337"/>
         <source>Log in</source>
         <translation type="unfinished"></translation>
     </message>
@@ -453,17 +413,11 @@ Settings menu</source>
         <source> - for Czech translation</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <location filename="../qml/pages/Settings.qml" line="610"/>
-        <source>Synchronization...</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>TasksPage</name>
     <message>
         <location filename="../qml/pages/TasksPage.qml" line="48"/>
-        <location filename="../qml/pages/TasksPage.qml" line="395"/>
         <source>Connected as</source>
         <translation type="unfinished"></translation>
     </message>
@@ -516,21 +470,6 @@ Settings menu</source>
     <message>
         <location filename="../qml/pages/TasksPage.qml" line="371"/>
         <source>Delete task</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/TasksPage.qml" line="390"/>
-        <source>Connecting...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/TasksPage.qml" line="392"/>
-        <source>Synchronization...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/TasksPage.qml" line="397"/>
-        <source>Disconnected</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

@@ -117,7 +117,7 @@ Page {
 
         PullDownMenu {
             id: pullDownMenu
-            busy: ioInterface.getConnectionStatus() || ioInterface.getUpdatingStatus() ? true : false
+            // Removing DropBox // busy: ioInterface.getConnectionStatus() || ioInterface.getUpdatingStatus() ? true : false
 
             MenuItem {
                 text: qsTr("Delete list")
@@ -386,6 +386,8 @@ Page {
 
     onStatusChanged: {
         if (status===PageStatus.Activating) {
+            // Removing DropBox //
+            /*
             if (ioInterface.getConnectionStatus()) {
                 connectionStatus.text = qsTr("Connecting...")
             } else if (ioInterface.getUpdatingStatus()) {
@@ -397,7 +399,7 @@ Page {
                     connectionStatus.text = qsTr("Disconnected");
                 }
             }
-
+*/
             tasksModelCover.clear()
             var i;
             if (Settings.getHideDoneTasksCover()) {

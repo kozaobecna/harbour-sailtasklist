@@ -30,7 +30,7 @@ Page {
     }
     RemorsePopup { id: remorse }
 
-    Connections {
+    /* Removing DropBox //  Connections {
         target: ioInterface
         onSendUserName: {
             connectionStatus.text = qsTr("Connected as") + " " + userName;
@@ -53,7 +53,7 @@ Page {
             ioInterface.setConnectionStatus(false);
             pullDownMenu.busy = false;
         }
-    }
+    }*/
 
     Connections {
         target: mainWindow
@@ -122,7 +122,7 @@ Page {
 
         PullDownMenu {
             id: pullDownMenu
-            busy: ioInterface.getConnectionStatus() || ioInterface.getUpdatingStatus() ? true : false
+            // Removing DropBox // busy: ioInterface.getConnectionStatus() || ioInterface.getUpdatingStatus() ? true : false
 
             MenuItem {
                 text: qsTr("Reset database")
@@ -336,8 +336,8 @@ Page {
                         id: loginButton
                         text: Settings.getLoginStatus() ? qsTr("Log out") : qsTr("Log in")
                         anchors.horizontalCenter:  parent.horizontalCenter
-                        enabled: !(ioInterface.getConnectionStatus() || ioInterface.getUpdatingStatus())
-                        onClicked: {
+                        // Removing DropBox // enabled: !(ioInterface.getConnectionStatus() || ioInterface.getUpdatingStatus())
+                       /*// Removing DropBox //  onClicked: {
                             if (ioInterface.getConnectedStatus()) {
                                 Settings.clearDropboxAccountInfo();
                                 ioInterface.leaveDropbox();
@@ -348,7 +348,7 @@ Page {
                                 busyIndicator.running = true;
                                 mainWindow.pageStack.push(Qt.resolvedUrl("CloudAuthorisationPage.qml"), {}, PageStackAction.Immediate);
                             }
-                        }
+                        }*/
                     }
                 }
 
@@ -604,7 +604,7 @@ Page {
                 //console.log("mainWindow.settingsOpened2: ", mainWindow.settingsOpened)
             }
         } else if (status === PageStatus.Activating) {
-            if (ioInterface.getConnectionStatus()) {
+         /*// Removing DropBox //    if (ioInterface.getConnectionStatus()) {
                 connectionStatus.text = qsTr("Connecting...")
             } else if (ioInterface.getUpdatingStatus()) {
                 connectionStatus.text = qsTr("Synchronization...")
@@ -614,7 +614,7 @@ Page {
                 } else {
                     connectionStatus.text = qsTr("Disconnected");
                 }
-            }
+            }*/
         }
     }
 }

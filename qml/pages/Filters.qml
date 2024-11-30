@@ -49,7 +49,7 @@ Dialog {
 
         PullDownMenu {
             id: pullDownMenu
-            busy: ioInterface.getConnectionStatus() || ioInterface.getUpdatingStatus() ? true : false
+            // Removing DropBox // busy: ioInterface.getConnectionStatus() || ioInterface.getUpdatingStatus() ? true : false
 
             MenuItem {
                 text: mainWindow.filterSortingOrder==0 ? qsTr("Oldest first") : qsTr("Newest first")
@@ -308,7 +308,7 @@ Dialog {
                 //selectChanged(1);
             }
         } else if (status===PageStatus.Activating) {
-            if (ioInterface.getConnectionStatus()) {
+       /* // Removing DropBox //     if (ioInterface.getConnectionStatus()) {
                 connectionStatus.text = qsTr("Connecting...")
             } else if (ioInterface.getUpdatingStatus()) {
                 connectionStatus.text = qsTr("Synchronization...")
@@ -318,7 +318,7 @@ Dialog {
                 } else {
                     connectionStatus.text = qsTr("Disconnected");
                 }
-            }
+            }*/
 
             tasksModelCover.clear()
             var i;

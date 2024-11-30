@@ -50,7 +50,7 @@ Page {
         mainWindow.needUpdate = true;
         mainWindow.newFile = true;
     }
-
+/*
     Connections {
         target: ioInterface
         onSendUserName: {
@@ -77,7 +77,7 @@ Page {
             checkDropbox();
         }
     }
-
+*/
     Connections {
         target: mainWindow
 
@@ -148,7 +148,7 @@ Page {
 
         PullDownMenu {
             id: pullDownMenu
-            busy: ioInterface.getConnectionStatus() || ioInterface.getUpdatingStatus() ? true : false
+            // removing DropBox// busy: ioInterface.getConnectionStatus() || ioInterface.getUpdatingStatus() ? true : false
 
             MenuItem {
                 text: qsTr("Settings")
@@ -526,7 +526,8 @@ Page {
             } else {
                 manualSortingButton.visible = false
             }*/
-
+// removing DropBox
+            /*
             if (Settings.getLoginStatus()) {
                 connectionStatus.visible = true
             } else {
@@ -544,7 +545,7 @@ Page {
                     connectionStatus.text = qsTr("Disconnected");
                 }
             }
-
+*/
             newList.focus = false;
 
             listsModelCover.clear()
@@ -552,7 +553,8 @@ Page {
                 listsModelCover.append(listsModel.get(i))
             }
         } else if (status===PageStatus.Active) {
-            if (mainWindow.needUpdate) {
+            // Removing DropBox //
+            /*if (mainWindow.needUpdate) {
                 pullDownMenu.busy = true;
                 ioInterface.setUpdatingStatus(true);
 
@@ -563,7 +565,7 @@ Page {
                 ioInterface.setUpdatingStatus(false);
                 pullDownMenu.busy = false;
                 mainWindow.needUpdate = false;
-            }
+            }*/
         }
     }
 

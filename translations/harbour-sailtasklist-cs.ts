@@ -26,35 +26,36 @@
         <source>Lists
 
 Settings menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Seznamy
+
+Nastavení</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="52"/>
         <location filename="../qml/cover/CoverPage.qml" line="56"/>
         <source>List not selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Seznam nevybrán</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="54"/>
         <source>List is empty</source>
-        <translation type="unfinished"></translation>
+        <translation>Seznam je prázdný</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="96"/>
         <source>Lists</source>
-        <translation type="unfinished"></translation>
+        <translation>Seznamy</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="99"/>
         <source>Filters menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Menu filtrů</translation>
     </message>
 </context>
 <context>
     <name>Filters</name>
     <message>
         <location filename="../qml/pages/Filters.qml" line="17"/>
-        <location filename="../qml/pages/Filters.qml" line="317"/>
         <source>Connected as</source>
         <translation type="unfinished"></translation>
     </message>
@@ -98,30 +99,9 @@ Settings menu</source>
         <source>Select the displayed lists</source>
         <translation>Výběr seznamů k zobrazení</translation>
     </message>
-    <message>
-        <location filename="../qml/pages/Filters.qml" line="312"/>
-        <source>Connecting...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Filters.qml" line="314"/>
-        <source>Synchronization...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Filters.qml" line="319"/>
-        <source>Disconnected</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>ListsPage</name>
-    <message>
-        <location filename="../qml/pages/ListsPage.qml" line="63"/>
-        <location filename="../qml/pages/ListsPage.qml" line="544"/>
-        <source>Disconnected</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <location filename="../qml/pages/ListsPage.qml" line="122"/>
         <location filename="../qml/pages/ListsPage.qml" line="202"/>
@@ -148,7 +128,7 @@ Settings menu</source>
     <message>
         <location filename="../qml/pages/ListsPage.qml" line="230"/>
         <source>You have not lists =(</source>
-        <translation>Nemáš žádný seznam</translation>
+        <translation>Nemáš žádný seznam :(</translation>
     </message>
     <message>
         <location filename="../qml/pages/ListsPage.qml" line="254"/>
@@ -192,31 +172,28 @@ Settings menu</source>
         <translation>Vybrat úkoly pro kopírování</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ListsPage.qml" line="537"/>
-        <location filename="../qml/pages/ListsPage.qml" line="579"/>
+        <location filename="../qml/pages/ListsPage.qml" line="581"/>
         <source>Connecting...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ListsPage.qml" line="539"/>
-        <location filename="../qml/pages/ListsPage.qml" line="593"/>
-        <location filename="../qml/pages/ListsPage.qml" line="597"/>
-        <location filename="../qml/pages/ListsPage.qml" line="607"/>
-        <location filename="../qml/pages/ListsPage.qml" line="618"/>
-        <location filename="../qml/pages/ListsPage.qml" line="681"/>
+        <location filename="../qml/pages/ListsPage.qml" line="590"/>
+        <source>Checking for updates...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/ListsPage.qml" line="595"/>
+        <location filename="../qml/pages/ListsPage.qml" line="599"/>
+        <location filename="../qml/pages/ListsPage.qml" line="609"/>
+        <location filename="../qml/pages/ListsPage.qml" line="620"/>
+        <location filename="../qml/pages/ListsPage.qml" line="683"/>
         <source>Synchronization...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ListsPage.qml" line="542"/>
-        <location filename="../qml/pages/ListsPage.qml" line="628"/>
-        <location filename="../qml/pages/ListsPage.qml" line="694"/>
+        <location filename="../qml/pages/ListsPage.qml" line="630"/>
+        <location filename="../qml/pages/ListsPage.qml" line="696"/>
         <source>Connected as</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/ListsPage.qml" line="588"/>
-        <source>Checking for updates...</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -233,24 +210,6 @@ Settings menu</source>
         <translation>Resetovat nastavení</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="36"/>
-        <location filename="../qml/pages/Settings.qml" line="613"/>
-        <source>Connected as</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Settings.qml" line="38"/>
-        <location filename="../qml/pages/Settings.qml" line="337"/>
-        <source>Log out</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Settings.qml" line="51"/>
-        <location filename="../qml/pages/Settings.qml" line="615"/>
-        <source>Disconnected</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../qml/pages/Settings.qml" line="67"/>
         <source>Downloading...</source>
         <translation type="unfinished"></translation>
@@ -262,7 +221,6 @@ Settings menu</source>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="83"/>
-        <location filename="../qml/pages/Settings.qml" line="608"/>
         <source>Connecting...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -289,12 +247,12 @@ Settings menu</source>
     <message>
         <location filename="../qml/pages/Settings.qml" line="157"/>
         <source>Timeout for deleting lists (sec.)</source>
-        <translation>Prodleva před smazáním seznamu (sec.)</translation>
+        <translation>Časový limit pro smazání seznamu (sek.)</translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="178"/>
         <source>Timeout for deleting tasks (sec.)</source>
-        <translation>Prodleva před smazáním úkolu (sec.)</translation>
+        <translation>Časový limit pro smazání [kol; (sek.)</translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="189"/>
@@ -304,12 +262,12 @@ Settings menu</source>
     <message>
         <location filename="../qml/pages/Settings.qml" line="205"/>
         <source>Hide done tasks on cover</source>
-        <translation>Skrýt dokončené úkoly</translation>
+        <translation>Skrýt dokončené úkoly na coveru</translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="215"/>
         <source>Colored numbers in statistic</source>
-        <translation>Berevná čísla ve statistikách</translation>
+        <translation>Barevná čísla ve statistikách</translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="228"/>
@@ -319,17 +277,17 @@ Settings menu</source>
     <message>
         <location filename="../qml/pages/Settings.qml" line="238"/>
         <source>Return after scroll list on cover</source>
-        <translation type="unfinished"></translation>
+        <translation>Zpět na seznamy na konci úkolů na coveru</translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="252"/>
         <source>Add lists from menu</source>
-        <translation>Přidávání seznamů z menu</translation>
+        <translation>Přídávat seznamy z menu</translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="265"/>
         <source>Sorting order in lists:</source>
-        <translation>Pořadí seznamů:</translation>
+        <translation>Řazení v seznamech:</translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="269"/>
@@ -352,7 +310,7 @@ Settings menu</source>
     <message>
         <location filename="../qml/pages/Settings.qml" line="288"/>
         <source>Sorting order in tasks:</source>
-        <translation>Pořadí úkolů:</translation>
+        <translation>Řazení v úkolech:</translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="312"/>
@@ -361,14 +319,18 @@ Settings menu</source>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="337"/>
-        <location filename="../qml/pages/Settings.qml" line="344"/>
+        <source>Log out</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Settings.qml" line="337"/>
         <source>Log in</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="391"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>O aplikaci</translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="400"/>
@@ -406,7 +368,7 @@ Settings menu</source>
     <message>
         <location filename="../qml/pages/Settings.qml" line="447"/>
         <source>Available languages: </source>
-        <translation type="unfinished"></translation>
+        <translation>Dostupné jazyky: </translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="456"/>
@@ -416,7 +378,7 @@ Settings menu</source>
     <message>
         <location filename="../qml/pages/Settings.qml" line="465"/>
         <source>Version: </source>
-        <translation type="unfinished"></translation>
+        <translation>Verze: </translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="474"/>
@@ -431,7 +393,7 @@ Settings menu</source>
     <message>
         <location filename="../qml/pages/Settings.qml" line="492"/>
         <source>Built for aarch64: </source>
-        <translation type="unfinished"></translation>
+        <translation>Sestavení pro aarch64: </translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="501"/>
@@ -453,17 +415,11 @@ Settings menu</source>
         <source> - for Czech translation</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <location filename="../qml/pages/Settings.qml" line="610"/>
-        <source>Synchronization...</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>TasksPage</name>
     <message>
         <location filename="../qml/pages/TasksPage.qml" line="48"/>
-        <location filename="../qml/pages/TasksPage.qml" line="395"/>
         <source>Connected as</source>
         <translation type="unfinished"></translation>
     </message>
@@ -517,21 +473,6 @@ Settings menu</source>
         <location filename="../qml/pages/TasksPage.qml" line="371"/>
         <source>Delete task</source>
         <translation>Smazat úkol</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/TasksPage.qml" line="390"/>
-        <source>Connecting...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/TasksPage.qml" line="392"/>
-        <source>Synchronization...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/TasksPage.qml" line="397"/>
-        <source>Disconnected</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

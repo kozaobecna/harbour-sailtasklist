@@ -1,10 +1,10 @@
 Name:       harbour-sailtasklist
 
 Summary:    SailGoat TaskList
-Version:    1.3.2
+Version:    1.3.3
 Release:    1
 License:    LICENSE
-URL:        http://example.org/
+URL:        https://github.com/kozaobecna/harbour-sailtasklist
 Source0:    %{name}-%{version}.tar.bz2
 Requires:   sailfishsilica-qt5 >= 0.10.9
 BuildRequires:  pkgconfig(sailfishapp) >= 1.0.2

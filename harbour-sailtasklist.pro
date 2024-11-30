@@ -27,7 +27,7 @@ DISTFILES += qml/harbour-sailtasklist.qml \
     qml/pages/Settings.qml \
     qml/pages/TasksPage.qml \
     qml/cover/CoverPage.qml \
-    rpm/harbour-sailtasklist.changes.in \
+    rpm/harbour-sailtasklist.changes \
     rpm/harbour-sailtasklist.changes.run.in \
     rpm/harbour-sailtasklist.spec \
     translations/*.ts \
