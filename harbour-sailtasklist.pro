@@ -39,3 +39,4 @@ CONFIG += sailfishapp_i18n
 
 
 TRANSLATIONS += translations/harbour-sailtasklist-cs.ts
+TRANSLATIONS += translations/harbour-sailtasklist-sv.ts
