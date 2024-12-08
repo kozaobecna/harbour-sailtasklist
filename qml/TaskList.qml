@@ -233,18 +233,20 @@ ListModel {
         )
     }
 
-    function fillTaskModel(listName, listDate, listColor) {
+    function fillTaskModel(listName, listDate, listColor,searchTask) {
+        var searchTerm = ""
+        if (searchTask) searchTerm = " AND taskName LIKE '%"+searchTask+"%' "
         var db = openDb()
         db.transaction(
             function(tx) {
                 var rs
                 var sort = Settings.getSortingTasks()
                 if (sort===1) {
-                    rs = tx.executeSql("SELECT taskName,done,listColor FROM lists WHERE listName=? AND listDate=? AND done!=2 ORDER BY done ASC, id DESC", [listName, listDate]);
+                    rs = tx.executeSql("SELECT taskName,done,listColor FROM lists WHERE listName=? AND listDate=? AND done!=2 "+searchTerm+" ORDER BY done ASC, id DESC", [listName, listDate]);
                 } else if (sort===2) {
-                    rs = tx.executeSql("SELECT taskName,done,listColor FROM lists WHERE listName=? AND listDate=? AND done!=2 ORDER BY done ASC, taskName ASC", [listName, listDate]);
+                    rs = tx.executeSql("SELECT taskName,done,listColor FROM lists WHERE listName=? AND listDate=? AND done!=2 "+searchTerm+" ORDER BY done ASC, taskName ASC", [listName, listDate]);
                 } else {
-                    rs = tx.executeSql("SELECT taskName,done,listColor FROM lists WHERE listName=? AND listDate=? AND done!=2 ORDER BY done ASC, id ASC", [listName, listDate]);
+                    rs = tx.executeSql("SELECT taskName,done,listColor FROM lists WHERE listName=? AND listDate=? AND done!=2 "+searchTerm+" ORDER BY done ASC, id ASC", [listName, listDate]);
                 }
                 listModel.clear();
                 if (rs.rows.length > 0) {

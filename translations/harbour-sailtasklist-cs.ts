@@ -6,17 +6,17 @@
     <message>
         <location filename="../qml/pages/CloudAuthorisationPage.qml" line="87"/>
         <source>Reload</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/CloudAuthorisationPage.qml" line="98"/>
         <source>Something wrong =(</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/CloudAuthorisationPage.qml" line="99"/>
         <source>Check network connectivity and pull down to reload</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -57,7 +57,7 @@ Nastavení</translation>
     <message>
         <location filename="../qml/pages/Filters.qml" line="17"/>
         <source>Connected as</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/Filters.qml" line="55"/>
@@ -174,12 +174,12 @@ Nastavení</translation>
     <message>
         <location filename="../qml/pages/ListsPage.qml" line="581"/>
         <source>Connecting...</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/ListsPage.qml" line="590"/>
         <source>Checking for updates...</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/ListsPage.qml" line="595"/>
@@ -188,13 +188,13 @@ Nastavení</translation>
         <location filename="../qml/pages/ListsPage.qml" line="620"/>
         <location filename="../qml/pages/ListsPage.qml" line="683"/>
         <source>Synchronization...</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/ListsPage.qml" line="630"/>
         <location filename="../qml/pages/ListsPage.qml" line="696"/>
         <source>Connected as</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -212,22 +212,22 @@ Nastavení</translation>
     <message>
         <location filename="../qml/pages/Settings.qml" line="67"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="70"/>
         <source>Uploading...</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="83"/>
         <source>Connecting...</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="102"/>
         <source>Please, wait</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="128"/>
@@ -315,17 +315,17 @@ Nastavení</translation>
     <message>
         <location filename="../qml/pages/Settings.qml" line="312"/>
         <source>Cloud storage</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="337"/>
         <source>Log out</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="337"/>
         <source>Log in</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="391"/>
@@ -335,7 +335,7 @@ Nastavení</translation>
     <message>
         <location filename="../qml/pages/Settings.qml" line="400"/>
         <source>The application allows you to create and store lists in a convenient way. On the cover, you can navigate through the generated lists and complete the tasks.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="409"/>
@@ -348,22 +348,22 @@ Nastavení</translation>
 - Sorting modes
 - Favorite lists
 - Statistic and filters</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="421"/>
         <source>Application can use Dropbox (NOT WORKING) for sharing your lists with all your phones. Just log in and wait until the application has completed the initial setup. For update your lists in Dropbox storage you need return at &apos;Lists page&apos;. If you close your application before it, your dropbox storage will update with next launch of application.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="429"/>
         <source>When you delete your list from your device it will not permanent delete from storage and just untracked because current Dropbox API do not support delete function. You can clean your folder in storage manually if you need.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="437"/>
         <source>If you lost your network connection, application will try reconnect every 5 minutes. Just wait or restart your application.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="447"/>
@@ -373,7 +373,7 @@ Nastavení</translation>
     <message>
         <location filename="../qml/pages/Settings.qml" line="456"/>
         <source>If you find a bug or want help us with translations application on other languages, please, submit issue on the github.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="465"/>
@@ -383,7 +383,7 @@ Nastavení</translation>
     <message>
         <location filename="../qml/pages/Settings.qml" line="474"/>
         <source>Sources: </source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="483"/>
@@ -398,7 +398,7 @@ Nastavení</translation>
     <message>
         <location filename="../qml/pages/Settings.qml" line="501"/>
         <source>If you like our application, you can leave comments, click &apos;Like&apos; or flattring our app. Your feedback and support very important for us. Thank you!</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="510"/>
@@ -408,12 +408,12 @@ Nastavení</translation>
     <message>
         <location filename="../qml/pages/Settings.qml" line="521"/>
         <source> - for patience and help in testing</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="535"/>
         <source> - for Czech translation</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -421,13 +421,13 @@ Nastavení</translation>
     <message>
         <location filename="../qml/pages/TasksPage.qml" line="48"/>
         <source>Connected as</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/TasksPage.qml" line="58"/>
         <location filename="../qml/pages/TasksPage.qml" line="61"/>
-        <location filename="../qml/pages/TasksPage.qml" line="301"/>
-        <location filename="../qml/pages/TasksPage.qml" line="304"/>
+        <location filename="../qml/pages/TasksPage.qml" line="309"/>
+        <location filename="../qml/pages/TasksPage.qml" line="312"/>
         <source>Deleting</source>
         <translation>Mažu</translation>
     </message>
@@ -460,17 +460,23 @@ Nastavení</translation>
     </message>
     <message>
         <location filename="../qml/pages/TasksPage.qml" line="162"/>
-        <location filename="../qml/pages/TasksPage.qml" line="271"/>
-        <source>. Add new task</source>
-        <translation>. Přidat nový úkol</translation>
+        <location filename="../qml/pages/TasksPage.qml" line="275"/>
+        <source>. Search or Add new task</source>
+        <translation>. Hledat nebo Přidat úkol</translation>
     </message>
     <message>
-        <location filename="../qml/pages/TasksPage.qml" line="361"/>
+        <location filename="../qml/pages/TasksPage.qml" line="163"/>
+        <location filename="../qml/pages/TasksPage.qml" line="276"/>
+        <source>Type to search or Press &apos;Enter&apos; to create new task</source>
+        <translation>Hledej úkol, nebo stiskni &apos;Enter&apos; pro vytvoření</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/TasksPage.qml" line="369"/>
         <source>Edit task name</source>
         <translation>Přejmenovat úkol</translation>
     </message>
     <message>
-        <location filename="../qml/pages/TasksPage.qml" line="371"/>
+        <location filename="../qml/pages/TasksPage.qml" line="379"/>
         <source>Delete task</source>
         <translation>Smazat úkol</translation>
     </message>

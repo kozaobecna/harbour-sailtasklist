@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="cs_CZ" sourcelanguage="en_US">
+<TS version="2.1">
 <context>
     <name>CloudAuthorisationPage</name>
     <message>
@@ -424,8 +424,8 @@ Settings menu</source>
     <message>
         <location filename="../qml/pages/TasksPage.qml" line="58"/>
         <location filename="../qml/pages/TasksPage.qml" line="61"/>
-        <location filename="../qml/pages/TasksPage.qml" line="301"/>
-        <location filename="../qml/pages/TasksPage.qml" line="304"/>
+        <location filename="../qml/pages/TasksPage.qml" line="309"/>
+        <location filename="../qml/pages/TasksPage.qml" line="312"/>
         <source>Deleting</source>
         <translation type="unfinished"></translation>
     </message>
@@ -458,17 +458,23 @@ Settings menu</source>
     </message>
     <message>
         <location filename="../qml/pages/TasksPage.qml" line="162"/>
-        <location filename="../qml/pages/TasksPage.qml" line="271"/>
-        <source>. Add new task</source>
-        <translation></translation>
+        <location filename="../qml/pages/TasksPage.qml" line="275"/>
+        <source>. Search or Add new task</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/TasksPage.qml" line="361"/>
+        <location filename="../qml/pages/TasksPage.qml" line="163"/>
+        <location filename="../qml/pages/TasksPage.qml" line="276"/>
+        <source>Type to search or Press &apos;Enter&apos; to create new task</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/TasksPage.qml" line="369"/>
         <source>Edit task name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/TasksPage.qml" line="371"/>
+        <location filename="../qml/pages/TasksPage.qml" line="379"/>
         <source>Delete task</source>
         <translation type="unfinished"></translation>
     </message>

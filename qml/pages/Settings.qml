@@ -462,7 +462,7 @@ Page {
                 wrapMode: TextEdit.WordWrap
                 color: Theme.highlightColor
                 font.pixelSize: Theme.fontSizeExtraSmall
-                text: qsTr("Version: ") + "1.3.3"
+                text: qsTr("Version: ") + "1.3.4"
             }
 
             Label {

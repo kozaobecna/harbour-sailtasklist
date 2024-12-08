@@ -157,12 +157,16 @@ Page {
             TextField {
                 id: addTaskStrLand
                 width: parent.width / 2
-                labelVisible: false
+                labelVisible: true
                 anchors.verticalCenter: parent.verticalCenter
-                placeholderText: (list.count+1) + qsTr(". Add new task")
+                placeholderText: (list.count+1) + qsTr(". Search or Add new task")
+                label: qsTr("Type to search or Press 'Enter' to create new task")
                 focus: false
                 visible: isLandscape
-
+                onTextChanged: {
+                    tasksModel.fillTaskModel(tasksModel.curListName,tasksModel.curDate,tasksModel.curColor,addTaskStrLand.text)
+                    mainWindow.needUpdate = true;
+                }
                 EnterKey.onClicked: {
                     tasksModel.addTask(title.text,colorIndicator.color,text,curDate.text)
                     listsModel.fillListModel()
@@ -267,11 +271,15 @@ Page {
             id: addTaskStr
             width: parent.width
             anchors.top: titleRow.bottom
-            labelVisible: false
-            placeholderText: (list.count+1) + qsTr(". Add new task")
+            labelVisible: true
+            placeholderText: (list.count+1) + qsTr(". Search or Add new task")
+            label: qsTr("Type to search or Press 'Enter' to create new task")
             focus: false
             visible: isPortrait
-
+            onTextChanged: {
+                tasksModel.fillTaskModel(tasksModel.curListName,tasksModel.curDate,tasksModel.curColor,addTaskStr.text)
+                mainWindow.needUpdate = true;
+            }
             EnterKey.onClicked: {
                 tasksModel.addTask(title.text,colorIndicator.color,text,curDate.text)
                 listsModel.fillListModel()

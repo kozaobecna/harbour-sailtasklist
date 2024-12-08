@@ -432,8 +432,8 @@ Settings menu</source>
     <message>
         <location filename="../qml/pages/TasksPage.qml" line="58"/>
         <location filename="../qml/pages/TasksPage.qml" line="61"/>
-        <location filename="../qml/pages/TasksPage.qml" line="301"/>
-        <location filename="../qml/pages/TasksPage.qml" line="304"/>
+        <location filename="../qml/pages/TasksPage.qml" line="309"/>
+        <location filename="../qml/pages/TasksPage.qml" line="312"/>
         <source>Deleting</source>
         <translation>Tar bort</translation>
     </message>
@@ -466,17 +466,23 @@ Settings menu</source>
     </message>
     <message>
         <location filename="../qml/pages/TasksPage.qml" line="162"/>
-        <location filename="../qml/pages/TasksPage.qml" line="271"/>
-        <source>. Add new task</source>
-        <translation>. Lägg till ny uppgift</translation>
+        <location filename="../qml/pages/TasksPage.qml" line="275"/>
+        <source>. Search or Add new task</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/TasksPage.qml" line="361"/>
+        <location filename="../qml/pages/TasksPage.qml" line="163"/>
+        <location filename="../qml/pages/TasksPage.qml" line="276"/>
+        <source>Type to search or Press &apos;Enter&apos; to create new task</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/TasksPage.qml" line="369"/>
         <source>Edit task name</source>
         <translation>Redigera uppgiftsnamn</translation>
     </message>
     <message>
-        <location filename="../qml/pages/TasksPage.qml" line="371"/>
+        <location filename="../qml/pages/TasksPage.qml" line="379"/>
         <source>Delete task</source>
         <translation>Ta bort uppgiften</translation>
     </message>
