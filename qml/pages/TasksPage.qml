@@ -50,7 +50,10 @@ Page {
             pullDownMenu.busy = false;
         }
     }
-
+    function clearTextField(){
+        addTaskStr.text = ""
+        addTaskStrLand.text = ""
+    }
     function deleteList() {
         var string;
         switch (Qt.locale().name.substring(0,2)) {
@@ -173,6 +176,9 @@ Page {
                     text = ""
                     mainWindow.needUpdate = true;
                 }
+                onClicked: {
+                    addTaskStrLand.text = ""
+                }
             }
 
             BackgroundItem {
@@ -287,6 +293,9 @@ Page {
                 //list.scrollToBottom()
                 mainWindow.needUpdate = true;
             }
+            onClicked: {
+                addTaskStr.text = ""
+            }
         }
 
         SilicaListView {
@@ -317,6 +326,7 @@ Page {
                         function() {
                             tasksModel.deleteTask(index,title.text,curDate.text,taskName);
                             listsModel.fillListModel();
+                            clearTextField();
                             mainWindow.needUpdate = true;
                         },
                         Settings.getTimeoutTasks()*1000
@@ -356,6 +366,7 @@ Page {
 
                         EnterKey.onClicked: {
                             tasksModel.renameTask(taskName, text, tasksModel.curListName, tasksModel.curDate, tasksModel.curColor)
+                            clearTextField();
                             mainWindow.needUpdate = true;
                         }
                     }
@@ -386,6 +397,8 @@ Page {
                     tasksModel.updateStatus(index, title.text, curDate.text, colorIndicator.color, taskName, !done)
                     listsModel.fillListModel()
                     mainWindow.needUpdate = true;
+                    addTaskStrLand.text = ""
+                    addTaskStr.text = ""
                 }
             }
             VerticalScrollDecorator{}

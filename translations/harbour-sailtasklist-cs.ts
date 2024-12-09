@@ -424,59 +424,59 @@ Nastavení</translation>
         <translation></translation>
     </message>
     <message>
-        <location filename="../qml/pages/TasksPage.qml" line="58"/>
         <location filename="../qml/pages/TasksPage.qml" line="61"/>
-        <location filename="../qml/pages/TasksPage.qml" line="309"/>
-        <location filename="../qml/pages/TasksPage.qml" line="312"/>
+        <location filename="../qml/pages/TasksPage.qml" line="64"/>
+        <location filename="../qml/pages/TasksPage.qml" line="318"/>
+        <location filename="../qml/pages/TasksPage.qml" line="321"/>
         <source>Deleting</source>
         <translation>Mažu</translation>
     </message>
     <message>
-        <location filename="../qml/pages/TasksPage.qml" line="85"/>
         <location filename="../qml/pages/TasksPage.qml" line="88"/>
+        <location filename="../qml/pages/TasksPage.qml" line="91"/>
         <source>Clearing</source>
         <translation>Čistím</translation>
     </message>
     <message>
-        <location filename="../qml/pages/TasksPage.qml" line="103"/>
-        <location filename="../qml/pages/TasksPage.qml" line="142"/>
+        <location filename="../qml/pages/TasksPage.qml" line="106"/>
+        <location filename="../qml/pages/TasksPage.qml" line="145"/>
         <source>Delete completed</source>
         <translation>Smazat dokončené</translation>
     </message>
     <message>
-        <location filename="../qml/pages/TasksPage.qml" line="123"/>
+        <location filename="../qml/pages/TasksPage.qml" line="126"/>
         <source>Delete list</source>
         <translation>Smazat seznam</translation>
     </message>
     <message>
-        <location filename="../qml/pages/TasksPage.qml" line="128"/>
+        <location filename="../qml/pages/TasksPage.qml" line="131"/>
         <source>Clear list</source>
         <translation>Vyčistit seznam</translation>
     </message>
     <message>
-        <location filename="../qml/pages/TasksPage.qml" line="133"/>
+        <location filename="../qml/pages/TasksPage.qml" line="136"/>
         <source>Complete all tasks</source>
         <translation>Dokončit všechny úkoly</translation>
     </message>
     <message>
-        <location filename="../qml/pages/TasksPage.qml" line="162"/>
-        <location filename="../qml/pages/TasksPage.qml" line="275"/>
+        <location filename="../qml/pages/TasksPage.qml" line="165"/>
+        <location filename="../qml/pages/TasksPage.qml" line="281"/>
         <source>. Search or Add new task</source>
         <translation>. Hledat nebo Přidat úkol</translation>
     </message>
     <message>
-        <location filename="../qml/pages/TasksPage.qml" line="163"/>
-        <location filename="../qml/pages/TasksPage.qml" line="276"/>
+        <location filename="../qml/pages/TasksPage.qml" line="166"/>
+        <location filename="../qml/pages/TasksPage.qml" line="282"/>
         <source>Type to search or Press &apos;Enter&apos; to create new task</source>
         <translation>Hledej úkol, nebo stiskni &apos;Enter&apos; pro vytvoření</translation>
     </message>
     <message>
-        <location filename="../qml/pages/TasksPage.qml" line="369"/>
+        <location filename="../qml/pages/TasksPage.qml" line="380"/>
         <source>Edit task name</source>
         <translation>Přejmenovat úkol</translation>
     </message>
     <message>
-        <location filename="../qml/pages/TasksPage.qml" line="379"/>
+        <location filename="../qml/pages/TasksPage.qml" line="390"/>
         <source>Delete task</source>
         <translation>Smazat úkol</translation>
     </message>

@@ -2,7 +2,7 @@ Name:       harbour-sailtasklist
 
 Summary:    SailGoat TaskList
 Version:    1.3.4
-Release:    1
+Release:    2
 License:    LICENSE
 URL:        https://github.com/kozaobecna/harbour-sailtasklist
 Source0:    %{name}-%{version}.tar.bz2

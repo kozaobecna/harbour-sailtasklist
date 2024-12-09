@@ -430,59 +430,59 @@ Settings menu</source>
         <translation>Ansluten som</translation>
     </message>
     <message>
-        <location filename="../qml/pages/TasksPage.qml" line="58"/>
         <location filename="../qml/pages/TasksPage.qml" line="61"/>
-        <location filename="../qml/pages/TasksPage.qml" line="309"/>
-        <location filename="../qml/pages/TasksPage.qml" line="312"/>
+        <location filename="../qml/pages/TasksPage.qml" line="64"/>
+        <location filename="../qml/pages/TasksPage.qml" line="318"/>
+        <location filename="../qml/pages/TasksPage.qml" line="321"/>
         <source>Deleting</source>
         <translation>Tar bort</translation>
     </message>
     <message>
-        <location filename="../qml/pages/TasksPage.qml" line="85"/>
         <location filename="../qml/pages/TasksPage.qml" line="88"/>
+        <location filename="../qml/pages/TasksPage.qml" line="91"/>
         <source>Clearing</source>
         <translation>Rensar</translation>
     </message>
     <message>
-        <location filename="../qml/pages/TasksPage.qml" line="103"/>
-        <location filename="../qml/pages/TasksPage.qml" line="142"/>
+        <location filename="../qml/pages/TasksPage.qml" line="106"/>
+        <location filename="../qml/pages/TasksPage.qml" line="145"/>
         <source>Delete completed</source>
         <translation>Ta bort slutfört</translation>
     </message>
     <message>
-        <location filename="../qml/pages/TasksPage.qml" line="123"/>
+        <location filename="../qml/pages/TasksPage.qml" line="126"/>
         <source>Delete list</source>
         <translation>Ta bort listan</translation>
     </message>
     <message>
-        <location filename="../qml/pages/TasksPage.qml" line="128"/>
+        <location filename="../qml/pages/TasksPage.qml" line="131"/>
         <source>Clear list</source>
         <translation>Rensa listan</translation>
     </message>
     <message>
-        <location filename="../qml/pages/TasksPage.qml" line="133"/>
+        <location filename="../qml/pages/TasksPage.qml" line="136"/>
         <source>Complete all tasks</source>
         <translation>Slutför alla uppgifter</translation>
     </message>
     <message>
-        <location filename="../qml/pages/TasksPage.qml" line="162"/>
-        <location filename="../qml/pages/TasksPage.qml" line="275"/>
+        <location filename="../qml/pages/TasksPage.qml" line="165"/>
+        <location filename="../qml/pages/TasksPage.qml" line="281"/>
         <source>. Search or Add new task</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/TasksPage.qml" line="163"/>
-        <location filename="../qml/pages/TasksPage.qml" line="276"/>
+        <location filename="../qml/pages/TasksPage.qml" line="166"/>
+        <location filename="../qml/pages/TasksPage.qml" line="282"/>
         <source>Type to search or Press &apos;Enter&apos; to create new task</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/TasksPage.qml" line="369"/>
+        <location filename="../qml/pages/TasksPage.qml" line="380"/>
         <source>Edit task name</source>
         <translation>Redigera uppgiftsnamn</translation>
     </message>
     <message>
-        <location filename="../qml/pages/TasksPage.qml" line="379"/>
+        <location filename="../qml/pages/TasksPage.qml" line="390"/>
         <source>Delete task</source>
         <translation>Ta bort uppgiften</translation>
     </message>
